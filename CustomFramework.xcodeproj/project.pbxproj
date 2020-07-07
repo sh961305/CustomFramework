@@ -23,6 +23,8 @@
 /* Begin PBXBuildFile section */
 		C358C13224B4173E00FD141A /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C358C13024B4173E00FD141A /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C358C13924B4186700FD141A /* CsutomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358C13824B4186700FD141A /* CsutomClass.swift */; };
+		C38611B824B4400F00A7D63C /* CodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38611B724B4400F00A7D63C /* CodeReaderView.swift */; };
+		C38611BA24B4406100A7D63C /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38611B924B4406100A7D63C /* QRCodeGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		C358C13024B4173E00FD141A /* CustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramework.h; sourceTree = "<group>"; };
 		C358C13124B4173E00FD141A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C358C13824B4186700FD141A /* CsutomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CsutomClass.swift; sourceTree = "<group>"; };
+		C38611B724B4400F00A7D63C /* CodeReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReaderView.swift; sourceTree = "<group>"; };
+		C38611B924B4406100A7D63C /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,21 @@
 		C358C12F24B4173E00FD141A /* CustomFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C38611B624B43FE000A7D63C /* CodeScanner */,
+				C358C13824B4186700FD141A /* CsutomClass.swift */,
 				C358C13024B4173E00FD141A /* CustomFramework.h */,
 				C358C13124B4173E00FD141A /* Info.plist */,
-				C358C13824B4186700FD141A /* CsutomClass.swift */,
 			);
 			path = CustomFramework;
+			sourceTree = "<group>";
+		};
+		C38611B624B43FE000A7D63C /* CodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				C38611B724B4400F00A7D63C /* CodeReaderView.swift */,
+				C38611B924B4406100A7D63C /* QRCodeGenerator.swift */,
+			);
+			path = CodeScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38611B824B4400F00A7D63C /* CodeReaderView.swift in Sources */,
+				C38611BA24B4406100A7D63C /* QRCodeGenerator.swift in Sources */,
 				C358C13924B4186700FD141A /* CsutomClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
