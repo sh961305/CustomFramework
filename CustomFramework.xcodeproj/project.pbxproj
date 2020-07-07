@@ -25,6 +25,10 @@
 		C358C13924B4186700FD141A /* CsutomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358C13824B4186700FD141A /* CsutomClass.swift */; };
 		C38611B824B4400F00A7D63C /* CodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38611B724B4400F00A7D63C /* CodeReaderView.swift */; };
 		C38611BA24B4406100A7D63C /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38611B924B4406100A7D63C /* QRCodeGenerator.swift */; };
+		C38611BD24B445A100A7D63C /* UIColor+CustomFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38611BC24B445A100A7D63C /* UIColor+CustomFramework.swift */; };
+		C38611BF24B4468B00A7D63C /* UIImage+CustomFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38611BE24B4468B00A7D63C /* UIImage+CustomFramework.swift */; };
+		C38611C124B4471B00A7D63C /* UIResponder+CustomFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38611C024B4471B00A7D63C /* UIResponder+CustomFramework.swift */; };
+		C38611C524B44E3900A7D63C /* UIView+CustomFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38611C424B44E3900A7D63C /* UIView+CustomFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		C358C13824B4186700FD141A /* CsutomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CsutomClass.swift; sourceTree = "<group>"; };
 		C38611B724B4400F00A7D63C /* CodeReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReaderView.swift; sourceTree = "<group>"; };
 		C38611B924B4406100A7D63C /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		C38611BC24B445A100A7D63C /* UIColor+CustomFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomFramework.swift"; sourceTree = "<group>"; };
+		C38611BE24B4468B00A7D63C /* UIImage+CustomFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CustomFramework.swift"; sourceTree = "<group>"; };
+		C38611C024B4471B00A7D63C /* UIResponder+CustomFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+CustomFramework.swift"; sourceTree = "<group>"; };
+		C38611C424B44E3900A7D63C /* UIView+CustomFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CustomFramework.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 		C358C12F24B4173E00FD141A /* CustomFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C38611BB24B4458D00A7D63C /* CommomExtension */,
 				C38611B624B43FE000A7D63C /* CodeScanner */,
 				C358C13824B4186700FD141A /* CsutomClass.swift */,
 				C358C13024B4173E00FD141A /* CustomFramework.h */,
@@ -81,6 +90,17 @@
 				C38611B924B4406100A7D63C /* QRCodeGenerator.swift */,
 			);
 			path = CodeScanner;
+			sourceTree = "<group>";
+		};
+		C38611BB24B4458D00A7D63C /* CommomExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C38611BC24B445A100A7D63C /* UIColor+CustomFramework.swift */,
+				C38611BE24B4468B00A7D63C /* UIImage+CustomFramework.swift */,
+				C38611C024B4471B00A7D63C /* UIResponder+CustomFramework.swift */,
+				C38611C424B44E3900A7D63C /* UIView+CustomFramework.swift */,
+			);
+			path = CommomExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38611C124B4471B00A7D63C /* UIResponder+CustomFramework.swift in Sources */,
 				C38611B824B4400F00A7D63C /* CodeReaderView.swift in Sources */,
+				C38611BD24B445A100A7D63C /* UIColor+CustomFramework.swift in Sources */,
+				C38611BF24B4468B00A7D63C /* UIImage+CustomFramework.swift in Sources */,
 				C38611BA24B4406100A7D63C /* QRCodeGenerator.swift in Sources */,
+				C38611C524B44E3900A7D63C /* UIView+CustomFramework.swift in Sources */,
 				C358C13924B4186700FD141A /* CsutomClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
